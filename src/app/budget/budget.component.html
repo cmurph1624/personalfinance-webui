@@ -1,0 +1,11 @@
+<p>
+  budget works!
+</p>
+
+<table class="table table-bordere table-striped" ng-grid>
+  <legend>List</legend>
+    <tr *ngFor="let budget of budgets">
+        <td class="col-m-3" title="id">{{budget.id}}</td>
+        <td class="col-m-3" title="description">{{budget.description}}</td>
+    </tr>
+</table>
