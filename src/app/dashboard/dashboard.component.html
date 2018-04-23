@@ -1,0 +1,9 @@
+<div class="card" *ngFor="let envelope of envelopes">
+  <div class="card-body">
+    <h5 class="card-title">{{ envelope.description }}</h5>
+    <p>Budgeted Amount: {{ envelope.amountBudgeted }}</p>
+    <p>Used Amount: {{ envelope.amountUsed }}</p>
+    <p>Remaing Amount: {{ envelope.amountRemaining }}</p>
+  </div> 
+</div>
+

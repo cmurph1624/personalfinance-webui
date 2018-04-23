@@ -5,17 +5,27 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BudgetComponent } from './budget/budget.component';
 import { BudgetService } from './services/budget.service';
+import { BudgetDetailComponent } from './budget/budget-detail/budget-detail.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { EnvelopesService } from './services/envelopes.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BudgetComponent
+    BudgetComponent,
+    BudgetDetailComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [BudgetService],
+  providers: [
+    BudgetService,
+    EnvelopesService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

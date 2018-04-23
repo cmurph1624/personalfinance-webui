@@ -1,7 +1,7 @@
-export class Budgetitem {
-    id: number;
+export class Envelopeitem {
     description: string;
-    amount: number;
+    amountBudgeted: number;
+    amountUsed: number;
     amountRemaining: number;
     catagoryDesc: string;
 }
