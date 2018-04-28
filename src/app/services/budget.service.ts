@@ -8,8 +8,8 @@ import { of } from 'rxjs/observable/of';
 import { Envelopeitem } from '../envelopes/envelopeitem';
 
 export const Budgets: Budgetitem[] = [
-  {id: 1, description: "desc 1", amount: 5, amountRemaining: 3, catagoryDesc: "food"},
-  {id: 2, description: "desc 2", amount: 5, amountRemaining: 7, catagoryDesc: "food"}
+  {id: 1, description: "desc 1", amount: 5, amountRemaining: 3, catagoryDesc:"test"},
+  {id: 2, description: "desc 2", amount: 5, amountRemaining: 7, catagoryDesc:"test"}
 ]
 
 

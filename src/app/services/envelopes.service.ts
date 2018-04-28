@@ -11,8 +11,8 @@ import { of } from 'rxjs/observable/of';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 export const Envelopes: Envelopeitem[] = [
-  {description: "desc 1", amountBudgeted: 5, amountUsed: 2, amountRemaining: 3, catagoryDesc: "food"},
-  { description: "desc 2", amountBudgeted: 9, amountUsed: 2, amountRemaining: 7, catagoryDesc: "rent"}
+  {description: "desc 1", amountBudgeted: 5, amountUsed: 2, amountRemaining: 3},
+  { description: "desc 2", amountBudgeted: 9, amountUsed: 2, amountRemaining: 7}
 ]
 
 @Injectable()

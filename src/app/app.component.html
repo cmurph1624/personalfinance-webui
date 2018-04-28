@@ -1,5 +1,17 @@
 <!--The whole content below can be removed with the new code.-->
 <div class="container">
-    <router-outlet></router-outlet>
-</div>
 
+    <nav>
+        <a routerLink="/dashboard">Dashboard</a>
+        <a routerLink="/budget">Budget</a>
+        <a routerLink="/budgetdetail">Heroes</a>
+    </nav>
+    <div class="row">
+    <div class="col-lg-9">
+        <router-outlet></router-outlet>
+    </div>
+    <div class="col-lg-3">
+        <side-bar></side-bar>
+    </div>
+</div>
+</div>

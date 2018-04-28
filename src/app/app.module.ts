@@ -9,13 +9,16 @@ import { BudgetDetailComponent } from './budget/budget-detail/budget-detail.comp
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { EnvelopesService } from './services/envelopes.service';
 import { HttpClientModule } from '@angular/common/http';
+import { AccountSummaryComponent } from './account-summary/account-summary.component';
+import { AccountSummaryService } from './services/account-summary.service';
 
 @NgModule({
   declarations: [
     AppComponent,
     BudgetComponent,
     BudgetDetailComponent,
-    DashboardComponent
+    DashboardComponent,
+    AccountSummaryComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +27,8 @@ import { HttpClientModule } from '@angular/common/http';
   ],
   providers: [
     BudgetService,
-    EnvelopesService
+    EnvelopesService,
+    AccountSummaryService
   ],
   bootstrap: [AppComponent]
 })

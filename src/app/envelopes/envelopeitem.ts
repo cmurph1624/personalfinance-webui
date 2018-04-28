@@ -3,5 +3,4 @@ export class Envelopeitem {
     amountBudgeted: number;
     amountUsed: number;
     amountRemaining: number;
-    catagoryDesc: string;
 }
